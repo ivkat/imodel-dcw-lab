@@ -9,7 +9,7 @@ import { IModelApp, IModelConnection, ScreenViewport } from "@bentley/imodeljs-f
 import { DisplayStyleSettingsProps } from "@bentley/imodeljs-common";
 import { SmartDeviceDecorator } from "./components/decorators/SmartDeviceDecorator";
 import { SelectEndpointWidgetProvider } from "./components/providers/SelectEndpointWidgetProvider";
-import { ExpertVideocallWidget, ExpertVideocallWidgetProvider } from "./components/providers/ExpertVideocallWidgetProvider";
+import { ExpertVideocallWidgetProvider } from "./components/providers/ExpertVideocallWidgetProvider";
 
 const App: React.FC = () => {
   const [isAuthorized, setIsAuthorized] = useState(
